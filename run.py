@@ -83,7 +83,7 @@ def check(idf,pw):
 		if 'tidak' in tulis:
 			print(f'\r{x} ╠{x} [ {h}• {x}]{x} Succes Post{h} '+str(len(id))+f'{x} Result',end=" ")
 		elif 'ya' in tulis:
-			print(f'{x} ╠{x} [ {h}• {x}] Send ke {m} '+jum+f'{h}Succes ')
+			print(f'{x} ╠{x} [ {m}• {x}] Send ke {m} '+jum+f' {h}Succes ')
 			print(f'{x} ╠{x} [ {h}• {x}] Email :{h} '+idf)
 			print(f'{x} ╠{x} [ {h}• {x}] Pw    :{h} '+pw)
 		else:
